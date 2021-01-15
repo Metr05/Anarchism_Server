@@ -1,0 +1,104 @@
+[13:07:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[13:07:30] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[13:07:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[13:07:30] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[13:07:30] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, running on Mac OS X:x86_64:10.16, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre
+[13:07:30] [main/INFO] [FML]: Searching /Users/songzeqiu/sponge/serverforge/./mods for mods
+[13:07:30] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2838-7.3.0.jar
+[13:07:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:07:30] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[13:07:30] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/Users/songzeqiu/sponge/serverforge/./mods/spongeforge-1.12.2-2838-7.3.0.jar Service=LaunchWrapper Env=SERVER
+[13:07:30] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[13:07:30] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[13:07:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:07:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:07:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:07:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:07:32] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[13:07:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:07:32] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[13:07:32] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@719843e5
+[13:07:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:07:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:07:32] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:07:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:07:32] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:07:33] [main/WARN] [mixin]: @Mixin target net/minecraft/block/state/BlockStateContainer$StateImplementation is public in mixins.common.api.json:mcp.block.state.StateImplementationMixin_API and should be specified in value
+[13:07:36] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_189509_E in mixins.common.core.json:world.WorldMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[13:07:37] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[13:07:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[13:07:43] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[13:07:43] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[13:07:43] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[13:07:43] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[13:07:44] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/Users/songzeqiu/sponge/serverforge/./mods/spongeforge-1.12.2-2838-7.3.0.jar!/mcmod.info
+[13:07:44] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[13:07:48] [Server thread/INFO] [FML]: Searching /Users/songzeqiu/sponge/serverforge/./mods for mods
+[13:07:48] [Server thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
+[13:07:48] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[13:07:48] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[13:07:48] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[13:07:48] [Server thread/WARN] [FML]: Missing English translation for economicsbase: assets/economicsbase/lang/en_us.lang
+[13:07:48] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economicsbase] at CLIENT
+[13:07:48] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economicsbase] at SERVER
+[13:07:48] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[13:07:49] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[13:07:49] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[13:07:49] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[13:07:49] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[13:07:49] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[13:07:49] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13:07:49] [Server thread/INFO] [FML]: Applying holder lookups
+[13:07:49] [Server thread/INFO] [FML]: Holder lookups applied
+[13:07:49] [Server thread/INFO] [FML]: Applying holder lookups
+[13:07:49] [Server thread/INFO] [FML]: Holder lookups applied
+[13:07:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[13:07:49] [Server thread/INFO] [FML]: Applying holder lookups
+[13:07:49] [Server thread/INFO] [FML]: Holder lookups applied
+[13:07:49] [Server thread/INFO] [FML]: Applying holder lookups
+[13:07:49] [Server thread/INFO] [FML]: Holder lookups applied
+[13:07:49] [Server thread/INFO] [FML]: Injecting itemstacks
+[13:07:49] [Server thread/INFO] [FML]: Itemstack injection complete
+[13:07:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[13:07:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[13:07:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[13:07:50] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[13:07:50] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
+[13:07:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[13:07:50] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[13:07:50] [Server thread/INFO] [FML]: Applying holder lookups
+[13:07:50] [Server thread/INFO] [FML]: Holder lookups applied
+[13:07:51] [Server thread/INFO] [FML]: Injecting itemstacks
+[13:07:51] [Server thread/INFO] [FML]: Itemstack injection complete
+[13:07:51] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 8 mods
+[13:07:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[13:07:51] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[13:07:51] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[13:07:51] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[13:07:51] [Server thread/INFO] [FML]: Applying holder lookups
+[13:07:51] [Server thread/INFO] [FML]: Holder lookups applied
+[13:07:52] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[13:07:52] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
+[13:07:52] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
+[13:07:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world world (minecraft:overworld/0)
+[13:07:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 32%
+[13:07:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 84%
+[13:07:54] [Server thread/INFO] [Sponge]: Loading world [world] (minecraft:overworld/0)
+[13:07:54] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[13:07:54] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
+[13:07:54] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (minecraft:nether/-1)
+[13:07:54] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[13:07:54] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
+[13:07:54] [Server thread/INFO] [Sponge]: Loading world [DIM1] (minecraft:the_end/1)
+[13:07:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.692s)! For help, type "help" or "?"
+[13:07:55] [Server thread/INFO] [economicsbase]: Successfully running ExamplePlugin!!!
+[13:09:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[13:09:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[13:09:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[13:09:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[13:09:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/0
+[13:09:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/-1
+[13:09:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/1
+[13:09:33] [Server thread/INFO] [Sponge]: Unloading world [world] (minecraft:overworld/0)
+[13:09:33] [Server thread/INFO] [Sponge]: Unloading world [DIM-1] (minecraft:nether/-1)
+[13:09:33] [Server thread/INFO] [Sponge]: Unloading world [DIM1] (minecraft:the_end/1)
